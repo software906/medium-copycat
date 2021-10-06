@@ -1,0 +1,104 @@
+ *{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+ }
+.container{
+  width: 700px;
+  margin: 50px auto;
+
+}
+.banner{
+    background-image: url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+}
+.banner h1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+}
+.banner p{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.link-medium {
+    background-image: linear-gradient(to bottom, rgb(94, 94, 94), rgb(221, 64, 17));
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    color: #4352A1;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+    color: #818cc2;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
